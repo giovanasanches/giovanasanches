@@ -1,0 +1,22 @@
+# Site settings
+name: giovana
+surname: sanches
+title: giovanasanches
+email: gisomazz@gmail.com
+description: giovanasanches
+
+baseurl:
+url:  http://giovanasanches.github.io
+
+github: giovanasanches
+linkedin: giovana-sanches-somazz-0837b4139
+
+# Build settings
+markdown: kramdown
+
+include:
+  - _pages
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"

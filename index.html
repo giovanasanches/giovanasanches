@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="header-bar">
+  <h1>{{ site.name }}<b>{{ site.surname }}</b></h1>
+  <h2>{{ site.email }}</h2>
+</div>
+<br/>
+<hr>
+<br/>
+<ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p>{{ post.description }}</p>
+        <br/>
+        <hr/>
+      </li>
+    {% endfor %}
+</ul>
