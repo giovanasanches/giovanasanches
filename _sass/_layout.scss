@@ -57,7 +57,8 @@ display: block;
 opacity: 0.75;
 width: 100%;
 text-align: center;
-padding-top: 25px;
+padding-top: 5px;
+padding-bottom: 25px;
 line-height: 3em;
 z-index: 25;
 h1{  
@@ -66,6 +67,8 @@ h1{
     font-size:75px;
 }
 h2{
+    color: $grey-color-dark;
+    font-family: 'Helvetica';
     font-size:25px;
 }
 @include media-query($on-palm) {
@@ -129,6 +132,9 @@ margin-bottom: $vertical-spacing-unit;
 font-size: 45px;
 display:block;
 margin: 10px;
+}
+.contacticon a {
+    color: $theme-color-dark;
 }
 .center{
 text-align: center;

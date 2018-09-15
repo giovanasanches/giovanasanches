@@ -18,10 +18,9 @@ line-height: $base-line-height;
 font-weight: 100;
 color: $text-color;
 background-color: $background-color;
+background-image: linear-gradient(to top, $background-color, #ffffff 100%);
 -webkit-text-size-adjust: 100%;
 }
-
-
 
 /**
 * Set `margin-bottom` to maintain vertical rhythm

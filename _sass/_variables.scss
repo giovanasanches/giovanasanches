@@ -22,14 +22,14 @@ $green: #11D68B;
 $lime_green: #B7D12A;
 $purple: #B509AC;
 
-$vinho: #8B0000;
-
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
 $text-color:     #666;
 
 /* Set theme color *************************/
-$theme-color:   $vinho;
+$theme-color:   #8B0000;
+$theme-color-dark: darken($theme-color, 0%);
+
 
 // Our variables
 //$base-font-family: Helvetica, Arial, sans-serif;
@@ -40,7 +40,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #996f78;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
