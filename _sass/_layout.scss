@@ -68,8 +68,12 @@ h1{
 h2{
     font-size:25px;
 }
+@include media-query($on-palm) {
+h1{
+    font-size:60px;
 }
-
+}
+}
 /**
 * Site footer  **********************************************************
 */
