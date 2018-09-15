@@ -28,7 +28,7 @@ float: right;
 line-height: $nav-height;
 .page-link{
 line-height: $base-line-height;
-    // Gaps between nav items, but not on the first one
+// Gaps between nav items, but not on the first one
 &:not(:first-child) {
 margin-left: 10px;
     }
@@ -60,7 +60,7 @@ text-align: center;
 padding-top: 25px;
 line-height: 3em;
 z-index: 25;
-h1{
+h1{  
     color: $theme-color;
     font-family: $head-font-family;
     font-size:75px;
@@ -69,8 +69,8 @@ h2{
     font-size:25px;
 }
 @include media-query($on-palm) {
-h1{
-    font-size:60px;
+h1{ 
+font-size: 3rem;
 }
 }
 }
@@ -208,6 +208,9 @@ float: left;
 vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
+@include media-query($on-palm) {
+    width: 100%;
+}
 }
 .thumbnail{
 width: 100%;

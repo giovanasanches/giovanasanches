@@ -1,6 +1,5 @@
 # Site settings
-name: giovana
-surname: sanches
+name: giovanasanches
 title: giovanasanches
 email: gisomazz@gmail.com
 description: giovanasanches
@@ -19,3 +18,8 @@ include:
 # Pagination
 paginate: 15
 paginate_path: "/blog/page:num/"
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
